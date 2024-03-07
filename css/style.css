@@ -1,0 +1,14 @@
+:root{
+--backround-main-color:#012D63;
+--header-link-color:#C7C7C7;
+--text-color:#FFFFFF;
+
+
+
+
+}
+/* header */
+header{
+    background-color: var(--backround-main-color);
+
+}
