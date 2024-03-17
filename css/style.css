@@ -5,10 +5,44 @@
 
 
 
-
 }
 /* header */
 header{
-    background-color: var(--backround-main-color);
+    background-color:var(--backround-main-color);
+}
+.header-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+.header-logo{
+    padding-bottom:14px ;
+    padding-top: 16px;
+    width: 100px; 
+    height: 60px;
+    margin-right: 152px;
+}
+.navigation{
+    display: flex;
 
+}
+.navigation-item:nth-child(6){
+  margin-left: 20px;
+  margin-right: 73px;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--header-link-color);
+}І
+.navigation-item{
+    margin-left:29px ;
+    font-weight: 300;
+    font-size: 24px;
+    color:var(--header-link-color);
+}
+.language-navigation{
+    display: flex;
+}
+.language-item:nth-child(1){
+    padding-right:11px ;
 }
