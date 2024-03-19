@@ -23,7 +23,7 @@
   <body>
     <header>
       <div class="container header-wrap">
-        <img class="header-logo" src="/img/logo.webp" alt="" />
+        <img class="header-logo" src="./img/logo.webp" alt="" />
         <ul class="navigation">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Main page</a>
@@ -57,18 +57,18 @@
     <main>
       <section class="hero">
         <div class="container">
-          <img class="hero-logo" src="/img/logo.webp" alt="" />
+          <img class="hero-logo" src="./img/logo.webp" alt="" />
           <h3 class="name-tag">C&R</h3>
           <h1 class="title">ColoRawe</h1>
           <h2 class="subtitle">Your dream Nike</h2>
           <p class="description">
-            On this site you can find custom Nike sneakers of your dreams. The
-            original company caт`t create such beautiful sneakers as we do. Good
-            luck finding your way in the world of custom sneakers.
+            On this site you can find custom Nike sneakers of your dreams.
+            <br />
+            The original company caт`t create such beautiful <br />
+            sneakers as we do. <br />
+            Good luck finding your way in the world of custom sneakers.
           </p>
-          <button class="hero-button">
-            <p class="button-text">Buy my Nike</p>
-          </button>
+          <button class="hero-button">Buy my Nike</button>
         </div>
       </section>
       <section class="benefits">
@@ -76,15 +76,27 @@
           <ul class="benefits-list">
             <li class="benefits-card">
               <h3 class="benefits-title">Premium Quality</h3>
-              <img class="benefits-image" src="/img/benefits1.webp" alt="" />
+              <img
+                class="benefits-image"
+                src="./img/benefits_one.webp"
+                alt=""
+              />
             </li>
             <li class="benefits-card">
-              <img class="benefits-image" src="/img/benefits2.webp" alt="" />
+              <img
+                class="benefits-image"
+                src="./img/benefits_two.webp"
+                alt=""
+              />
               <h3 class="benefits-title">Indelible paint</h3>
             </li>
             <li class="benefits-card">
               <h3 class="benefits-title">Fast shipping</h3>
-              <img class="benefits-image" src="/img/benefits3.webp" alt="" />
+              <img
+                class="benefits-image"
+                src="./img/benefits_three.webp"
+                alt=""
+              />
             </li>
           </ul>
         </div>
@@ -100,21 +112,27 @@
               </h5>
               <p class="reviews-date">25.11</p>
               <div class="user-information">
-                <img class="user-image" src="/img/userimage1.png" alt="" />
-                <h6 class="user-name">John Teylor</h6>
-                <p class="user-date">With us from 2018</p>
+                <img class="user-image" src="./img/userimage_one.png" alt="" />
+                <div>
+                  <h6 class="user-name">John Teylor</h6>
+                  <p class="user-date">With us from 2018</p>
+                </div>
               </div>
             </li>
             <li class="reviews-card">
               <h5 class="reviews-coment">
-                I'm very happy with this color scheme. They match all my
+                I'm very happy with <br />
+                this color scheme. <br />
+                They match all my <br />
                 clothes.
               </h5>
               <p class="reviews-date">05.01</p>
               <div class="user-information">
-                <img class="user-image" src="/img/userimage2.png" alt="" />
-                <h6 class="user-name">Elizabeth Garsia</h6>
-                <p class="user-date">With us from 2020</p>
+                <img class="user-image" src="./img/userimage_two.png" alt="" />
+                <div>
+                  <h6 class="user-name">Elizabeth Garsia</h6>
+                  <p class="user-date">With us from 2020</p>
+                </div>
               </div>
             </li>
             <li class="reviews-card">
@@ -124,9 +142,15 @@
               </h5>
               <p class="reviews-date">18.06</p>
               <div class="user-information">
-                <img class="user-image" src="/img/userimage3.png" alt="" />
-                <h6 class="user-name">Tom Maquare</h6>
-                <p class="user-date">With us from 2019</p>
+                <img
+                  class="user-image"
+                  src="./img/userimage_three.png"
+                  alt=""
+                />
+                <div>
+                  <h6 class="user-name">Tom Maquare</h6>
+                  <p class="user-date">With us from 2019</p>
+                </div>
               </div>
             </li>
           </ul>
@@ -135,79 +159,49 @@
       <section class="order">
         <div class="container">
           <h2 class="order-title">Order</h2>
-          <ul class="order-data">
-            <li class="inputcard">
-              <input
-                class="input-field"
-                type="text"
-                id="inputfield"
-                placeholder="Write your email          Confirm"
-              />
-            </li>
-            <li class="inputcard">
-              <input
-                class="input-field"
-                type="text"
-                placeholder="Your Country"
-              />
-            </li>
-            <li class="inputcard">
-              <input class="input-field" type="text" placeholder="Your City" />
-            </li>
-            <li class="inputcard">
-              <input
-                class="input-field"
-                type="text"
-                placeholder="Your Adress"
-              />
-            </li>
-          </ul>
-          <button class="order-button">
-            <p class="order-button-text">Order my Nike</p>
-          </button>
+          <form action="#">
+            <input
+              class="input-field"
+              type="text"
+              id="inputfield"
+              placeholder="Write your email                                                   Confirm"
+            />
+            <input
+              class="input-field"
+              type="text"
+              placeholder="   Your Country"
+            />
+            <input class="input-field" type="text" placeholder="   Your City" />
+            <input
+              class="input-field"
+              type="text"
+              placeholder="   Your Adress"
+            />
+            <button class="order-button">Order my Nike</button>
+          </form>
         </div>
       </section>
     </main>
     <footer>
       <div class="container">
-        <ul class="footer-questions">
-          <li class="footer-question">
-            <p class="footer-text">Have a question?</p>
-          </li>
-          <li class="footer-question">
-            <p class="footer-text">Have a proposal for cooperation?</p>
-          </li>
-          <li class="footer-question">
-            <p class="footer-text">Advertising questions?</p>
-          </li>
-          <li class="footer-question">
-            <a class="footer-link" href="mailto:ColoRawe_support@gmail.com"
-              >ColoRawe_support@gmail.com</a
-            >
-          </li>
-          <li class="footer-question">
-            <a class="footer-link" href="mailto:ColoRawe_Cooperation@gmail.com"
-              >ColoRawe_Cooperation@gmail.com</a
-            >
-          </li>
-          <li class="footer-question">
-            <a class="footer-link" href="mailto:ColoRawe_Advertising@gmail.com"
-              >ColoRawe_Advertising@gmail.com</a
-            >
-          </li>
-        </ul>
-        <ul class="contacts-information">
-          <li class="contacts-text">
-            <p class="footer-adress">2022 ColoRawe @All rights reserved</p>
-          </li>
-          <li class="contacts-text">
-            <p class="footer-adress">United States</p>
-          </li>
-          <li class="contacts-text">
-            <img class="footer-logo" src="img/logo.webp" alt="" />
-          </li>
-          <li class="contacts-text"><p class="logo-tag">C&R</p></li>
-        </ul>
+        <div></div>
+        <p class="footer-text">Have a question?</p>
+        <p class="footer-text">Have a proposal for cooperation?</p>
+        <p class="footer-text">Advertising questions?</p>
+        <a class="footer-link" href="mailto:ColoRawe_support@gmail.com"
+          >ColoRawe_support@gmail.com</a
+        >
+        <a class="footer-link" href="mailto:ColoRawe_Cooperation@gmail.com"
+          >ColoRawe_Cooperation@gmail.com</a
+        >
+        <a class="footer-link" href="mailto:ColoRawe_Advertising@gmail.com"
+          >ColoRawe_Advertising@gmail.com</a
+        >
+
+        <p class="footer-adress">2022 ColoRawe @All rights reserved</p>
+        <p class="footer-adress">United States</p>
+        <img class="footer-logo" src="./img/logo.webp" alt="" />
+        <p class="logo-tag">C&R</p>
       </div>
     </footer>
   </body>

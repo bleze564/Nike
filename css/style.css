@@ -1,4 +1,5 @@
 :root{
+--button-color:#8e32c6;
 --backround-main-color:#012D63;
 --header-link-color:#C7C7C7;
 --text-color:#FFFFFF;
@@ -9,6 +10,8 @@
 /* header */
 header{
     background-color:var(--backround-main-color);
+    padding-bottom: 14px;
+    padding-top: 16px;
 }
 .header-wrap{
     display: flex;
@@ -17,8 +20,6 @@ header{
     flex-direction:row;
 }
 .header-logo{
-    padding-bottom:14px ;
-    padding-top: 16px;
     width: 100px;
     height: 60px;
     margin-right: 152px;
@@ -53,11 +54,15 @@ header{
 /* header */
 /*hero*/
 .hero{
-    background-image: url(/img/herobackground.jpg);
+    background-image: url(./../img/herobackground.jpg);
+    padding-bottom: 183px;
+    padding-top: 94px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .hero-logo{
     width: 160px;
-    padding-top:94px ;
     margin-bottom: -30px;
 }
 .name-tag{
@@ -66,6 +71,7 @@ header{
     color: var(--text-color);
     font-family:var(--third-family) ;   
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
 }
 .title{
     font-family: var(--second-family);
@@ -88,12 +94,11 @@ header{
     margin-bottom: 41px;
 }
 .hero-button{
-    border: #8e32c6;
+    border:none;
     border-radius: 10px;
     width: 254px;
     height: 67px;
-    background: #8e32c6;
-    margin-bottom: 183px;
+    background-color:var(--button-color);
 }
 .button-text{
     font-family: var(--font-family);
@@ -104,22 +109,29 @@ header{
 /*hero*/
 /*benefits*/
 .benefits{
-    background-image:url(/img/benefitsbackground.jpg);
+    background-image:url(./../img/benefitsbackground.jpg);
     background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 124px;
+    background-size: cover;
+    border-bottom: 2px solid var(--text-color);
 }
 .benefits-list{
     display: flex;
-    justify-content: center;
-    padding-top:130px ;
-    padding-bottom:124px ;
+    justify-content: space-evenly;
+    border:5px solid var(--button-color) ;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .benefits-card{
     width: 240px;
     height: 346px;
 }
 .benefits-card:nth-child(2){
-    margin-left: 145px;
-    margin-right: 145px;
+    border-left:1px solid var(--text-color);
+    border-right: 1px solid var(--text-color);
+    padding-left: 95px;
+    padding-right: 95px;
 }
 .benefits-image{
     width: 240px;
@@ -139,7 +151,7 @@ header{
 /*benefits*/
 /*reviews*/
 .reviews{
-    background-image: url(/img/reviewbackground.jpg);
+    background-image: url(./../img/reviewbackground.jpg);
 }
 .reviews-title{
     font-family: var(--second-family);
@@ -157,21 +169,22 @@ header{
 }
 .reviews-card{
     border-radius: 15px;
-    box-shadow: 0 30px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
-    background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+    background-image: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+    width: 255px;
+    padding: 49px 14px 29px 13px;
 }
 .reviews-card:nth-child(2){
-    box-shadow: 0 30px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
-    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+    background-image: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
     margin-left: 93px;
     margin-right:93px ;
 }
 .reviews-card:nth-child(3){
-    box-shadow: 0 30px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
-    background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
+    background-image: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
 .reviews-coment{
-    margin-top: 49px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 24px;
@@ -184,9 +197,14 @@ header{
     color: #d8d8d8;
     margin-top: 8px;
 }
+.user-information{
+    display: flex;
+    margin-top: 47px;
+}
 .user-image{
     height: 31px;
     width: 31px;
+    margin-right: 5px;
 }
 .user-name{
     font-family: var(--font-family);
@@ -203,7 +221,7 @@ header{
 /*reviews*/
 /*order*/
 .order{
-    background-image: url(/img/orderbackground.jpg);
+    background-image: url(./../img/orderbackground.jpg);
 }
 .order-title{
     font-family: var(--second-family);
@@ -214,23 +232,23 @@ header{
     padding-top:20px ;
     padding-bottom: 33px;
 }
-.inputcard{
-    border-radius: 50px;
-    width: 580px;
-    height: 50px;
-    background: #fff;
-    margin-bottom:19px ;
-}
-.inputcard:nth-child(1){
+.input-field:nth-child(1){
     border-radius: 50px;
     width: 690px;
     height: 60px;
+    border: none;
 }
 .input-field{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 28px;
     color: #959595;
+    border-radius: 50px;
+    width: 580px;
+    height: 50px;
+    background: #fff;
+    margin-bottom: 19px;
+    border:none;
 }
 .order-data{
     display: flex;
@@ -250,6 +268,11 @@ header{
     font-weight: 400;
     font-size: 24px;
     color: #fff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /*order*/
 /*foter*/
