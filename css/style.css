@@ -23,7 +23,7 @@ header{
 }
 .header-logo{
     width: 100px;
-    height: 60px;
+    height: 70px;
     margin-right: 152px;
 }
 .navigation{
@@ -39,6 +39,9 @@ header{
      font-weight: 300;
      font-size: 24px;
 }
+.navigation-link:hover{
+    color: var(--text-color);
+}
 .navigation-item{
     margin-left:29px ;
 }
@@ -52,6 +55,9 @@ header{
     color: var(--header-link-color);
     font-weight: 300;
     font-size: 24px;
+}
+.language-link:hover{
+   color: var(--text-color);
 }
 /* header */
 /*hero*/
@@ -105,6 +111,11 @@ header{
     font-weight: 400;
     font-size: 24px;
     color: var(--text-color);
+}
+.hero-button:hover{
+  background-image: linear-gradient(127deg, #8e32c6 13.78%, #8009ca 26.04%, #9907d3 62.5%,   #ff19ec 100% );
+  font-size: 25px;
+  box-shadow: 5px 4px 5px 1px #7B54B2, 7px 5px 6px 1px #ff19ec ;
 }
 /*hero*/
 /*benefits*/
@@ -269,6 +280,12 @@ header{
     font-size: 24px;
     color:var(--text-color);
 }
+.order-button:hover{
+    background-image: linear-gradient(127deg, #d400ff 13.78%, #ae00ff 26.04%, #00dbf8 62.5%, #ff00ff 100%);
+    font-size: 25px;
+    box-shadow: 5px 4px 5px 1px #2495ff, 7px 5px 6px 1px #06a5ee;
+
+}
 .order-button-text{
     font-family: var(--font-family);
     font-weight: 400;
@@ -314,6 +331,9 @@ footer{
     font-weight: 400;
     font-size: 18px;
     color: var(--text-color);
+}
+.footer-link:hover{
+    background-image: linear-gradient(125deg, #03204d 34%, #022457 68%);
 }
 .logo-tag{
     font-family: var(--third-family);
