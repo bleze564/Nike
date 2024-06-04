@@ -1,0 +1,74 @@
+.order {
+    background-image: url(./../img/orderbackground.jpg);
+    padding-top: 21px;
+    padding-bottom: 37px;
+
+}
+
+order-title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--text-color);
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.input-field:nth-child(1) {
+    border-radius: 50px;
+    width: 690px;
+    height: 60px;
+    border: none;
+}
+
+.input-field {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    color: var(--header-link-color);
+    border-radius: 50px;
+    width: 580px;
+    height: 50px;
+    background: var(--text-color);
+    margin-bottom: 19px;
+    border: none;
+}
+
+.order-data {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.order-button {
+    border: var(--button-color);
+    border-radius: 16px;
+    width: 248px;
+    height: 68px;
+    background-color: var(--button-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.order-button:hover {
+    background-image: linear-gradient(127deg, #d400ff 13.78%, #ae00ff 26.04%, #00dbf8 62.5%, #ff00ff 100%);
+    font-size: 25px;
+    box-shadow: 5px 4px 5px 1px #2495ff, 7px 5px 6px 1px #06a5ee;
+
+}
+
+.order-button-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
